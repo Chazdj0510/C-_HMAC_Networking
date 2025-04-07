@@ -17,9 +17,9 @@ r.flushall()
 # Define a dictionary of charms, each associated with a 4-dimensional feature vector
 # These vectors represent some abstract features (like color, power level, etc.)
 charms = {
-    "LuckyCharm": np.array([0.2, 0.9, 0.5, 0.4], dtype=np.float32),
-    "GuardianCharm": np.array([0.7, 0.1, 0.3, 0.6], dtype=np.float32),
-    "FortuneCharm": np.array([0.3, 0.4, 0.8, 0.7], dtype=np.float32)
+    "Milli": np.array([0.2, 0.9, 0.5, 0.4], dtype=np.float32),
+    "Geo": np.array([0.7, 0.1, 0.3, 0.6], dtype=np.float32),
+    "Bot": np.array([0.3, 0.4, 0.8, 0.7], dtype=np.float32)
 }
 
 # Store each charm and its corresponding vector in Redis
